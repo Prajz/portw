@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500&display=swap');
+
+
+.aap {
+  overflow-x: hidden;
+  position: relative
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+:root {
+  --colorbg: #0927aebc;
+  --colorw: #FFFFFF;
+  --colorbgv: #2c2c6c;
+  --colorprimary: #0927aebc;
+  --colorprimaryv: rgba(77, 181, 255, 0.4);
+  --colorf: #330033;
+  --colorlf: #003366;
+  --transi: all 400ms ease;
+  --containerwidthlg: 75%;
+  --containerwidthmd: 86%;
+  --containerwidthsm: 90%;
+
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  border-radius: 3px;
+  background: coral;
+  transform-origin: 0%;
+  z-index: 100;
+}
+.progress-bar::before{
+  opacity: 0;
+}
+
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(../src/assets/white_wall_hash.png);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+section > h2, section > h5 {
+  color: var(--colorf)
+}
+
+section > h2 {
+  color: var(--colorprimary);
+}
+
+.text-light {
+  color: var(--colorlf);
+}
+
+.scrolld{
+  left: 0;
+  right: 0;
+  padding-top: 17rem;
+  margin-bottom: -90%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  width: 5.5rem;
+}
+
+.scrollpro{
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 11.3rem;
+  height: 1.3rem;
+  margin-top: 85vh;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+      width: var(--containerwidthsm);
+  }
+  .aboum h1{
+    filter: none !important;
+    position: relative;
+    height: 3rem;
+    width: 5rem;
+    padding-bottom: 1rem;
+    z-index: -1;
+
+  }
+  section > h2 {
+      margin-bottom: 2rem;
+  }
+  .scrollpro{
+    margin-top: 74vh;
+  }    
+}
+
+
+
+.aboum h1{
+  filter: blur(1px);
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 500;
+  height: 4rem;
+  width: 22rem;
+}
+
+.btn{
+  color: var(--colorprimary);
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  transition: var(--transi);
+  border: 1px solid lightsalmon;
+  border-radius: 12px;
+}
+
+.btn:hover{
+  background: coral;
+  color: var(--colorw);
+  border-color: transparent;
+}
