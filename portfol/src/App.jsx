@@ -7,6 +7,7 @@ import React from 'react';
 import Dropd from './components/dropd/Dropd.jsx'
 import Header from './components/header/Header.jsx'
 import About from './components/about/About.jsx'
+import Projects from './components/proj/Proj.jsx'
 function App() {
   const FadeUp = batch(Fade(), Move(), Sticky());
   const FadeUpn = batch(Fade(), Move());
@@ -83,6 +84,11 @@ const container = {
                         return <AnimatedTexts {...item} key={index} />;
                       })}</motion.div>
                       </Animator>
+        </ScrollPage>
+        <ScrollPage>
+          <Animator animation={FadeUpn}>
+            <Projects />
+          </Animator>
         </ScrollPage>
         </ScrollContainer>
     </div>

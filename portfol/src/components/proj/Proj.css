@@ -1,0 +1,263 @@
+.btnprog{
+    color: var(--colorprimary);
+    cursor: pointer;
+    width: 5rem;
+    height: 4rem;
+    transition: var(--transi);
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+  }
+  
+  .btnprow{
+    color: darkslategray;
+    width: 14.2rem;
+    height: 2rem;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+  }
+  
+  .btnprog:hover{
+    background: darkmagenta;
+    color: var(--colorw);
+    border-color: transparent;
+  }
+  
+  .btnproy{
+    color: var(--colorprimary);
+    cursor: pointer;
+    width: 10rem;
+    height: 4rem;
+    transition: var(--transi);
+    border: 1px solid darkorange;
+    border-radius: 5px;
+  }
+  
+  .btnproy:hover{
+    background: orangered;
+    color: var(--colorw);
+    border-color: transparent;
+  }
+  
+  .fil{
+    padding-top: 5%;
+    padding-left: 3.5%;
+    height: 100vh;
+  }
+  
+  .gri{
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2% 1%
+  }
+  .btmimgly{
+    position: absolute;
+    bottom:1px;
+    right: 7rem;
+    height: 5vh;
+    width: max-content;
+  
+  }
+  .btmimglg{
+    position: absolute;
+    bottom:1px;
+    right: 5px;
+    height: 5vh;
+    font-size: 1.8rem;
+    width: max-content;
+  }
+  .btmimgry{
+    position: absolute;
+    bottom: 1px;
+    left: 7rem;
+    height: 5vh;
+    font-size: 1.8rem;
+    width: max-content;
+  }
+  .btmimgrg{
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    height: 5vh;
+    font-size: 1.8rem;
+    width: max-content;
+  }
+  .gri h1{
+    font-size: 270%;
+    padding: 1%;
+  }
+  .gri p{
+    font-size: 105%;
+    padding:1%
+  }
+  
+  .tl{
+    position: relative;
+    height: 30vh;
+    border: 2.5px solid midnightblue;
+    width: 110%;
+    border-radius: 6px;
+  }
+  .tr{
+    margin-left: 10%;
+    width: 83%;
+    height: 30vh;
+    position:relative;
+    border-radius: 6px;
+    border: 2.5px solid midnightblue;
+  }
+  .bl{
+    height: 30vh;
+    width: 83%;
+    padding-bottom: 20%;
+    position:relative;
+    border-radius: 6px;
+    border: 2.5px solid midnightblue;
+  }
+  
+  .br{
+    margin-left: -17%;
+    height: 30vh;
+    width:110%;
+    position:relative;
+    border-radius: 6px;
+    border: 2.5px solid midnightblue;
+  }
+  .mobi{
+    display: none;
+  }
+  .pc{
+    display: none;
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .b1{
+  
+    height: 100%;
+  }
+  .b2{
+    height: 100%;
+    text-align: right;
+  
+  }
+  .b3{
+    height: 100%;
+  
+  }
+  .b4{
+    height: 100%;
+    text-align: right;
+  }
+  
+  .cmc, .isc{
+    height: 29vh;
+    border-radius: 25px;
+    padding: 1%;
+    float: left;
+  }
+  
+  .cmc, .wkc{
+    width: 50%;
+  }
+  
+  .sgc{
+    width: 25%;
+  }
+  
+  .isc{
+    width: 21%;
+  }
+  
+  .wkc, .sgc{
+    height: 29vh;
+    border-radius: 25px;
+    padding: 1%;
+    float: right;
+  }
+  
+  
+  @media screen and (max-width: 725px){
+    .btnprow{
+      height: 2vh;
+      width: 7.5rem;
+    }
+    .btmimgrg{
+      height: 3.2vh;
+      font-size: 1rem;
+  
+    }
+    .btmimgry{
+      height: 3.2vh;
+      left: 4rem;
+      font-size: 1rem;
+    }
+    .btmimglg{
+      height: 3.2vh;
+      font-size: 1rem;
+    }
+    .btmimgly{
+      height: 3.2vh;
+      right: 4rem;
+      bottom: -0.15rem;
+      font-size: 1rem;
+    }
+    
+    .fil{
+      padding-top: 2rem;
+      padding-left: 1.2rem;
+    }
+    .gri{
+      display: block;
+    }
+    .pc{
+      display: none;
+    }
+    .mobi{
+      margin-top: 135%;
+      margin-left: 1%;
+      display: none;
+      text-align: center;
+    }
+    .tl{
+      position: absolute;
+      height: 17vh;
+      width: 90%;
+  
+    }
+    .tr{
+      margin-top: 34%;
+      margin-left: 0;
+      width: 90%;
+      position: absolute;
+      height: 17vh;
+  
+    }
+    .bl{
+      margin-top: 68%;
+      margin-left: 0;
+      width: 90%;
+      position: absolute;
+      height: 17vh;
+    }
+    .br{
+      margin-top: 102%;
+      margin-left: 0;
+      width: 90%;
+      position: absolute;
+      height: 17vh;
+    }
+  
+    .fil h1{
+      font-size: 1rem;
+    }
+    .gri p{
+      font-size: 0.5rem;
+    }
+  
+    .sgc ,.cmc ,.wkc, .isc{
+      height: 16.5vh;
+      border-radius: 10px;
+    }
+  
+  } 
