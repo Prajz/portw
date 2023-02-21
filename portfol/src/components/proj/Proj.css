@@ -83,7 +83,7 @@
     width: max-content;
   }
   .gri h1{
-    font-size: 270%;
+    font-size: 220%;
     padding: 1%;
   }
   .gri p{
@@ -177,7 +177,7 @@
   }
   
   
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 775px){
     .btnprow{
       height: 2vh;
       width: 7.5rem;
