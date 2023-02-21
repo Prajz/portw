@@ -45,7 +45,7 @@ const Cont = () => {
         <h2>
             Any questions?
         </h2>
-        <h5> Get in touch via this form or at my <a href='https://linkedin.com/devpraj'> Linkedin </a> </h5>
+        <h5> Get in touch via this form or at my <a href='https://www.linkedin.com/in/devpraj'> Linkedin </a> </h5>
         <form className='contf' ref={form} onSubmit={sendEmail}>
         <input type='text' name='name' placeholder='Your name' required/>
         <input type='email' name='email' placeholder='Your email address' required/>
