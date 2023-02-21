@@ -1,0 +1,59 @@
+.conty{
+    text-align: center;
+    margin-top: 15%;
+    padding-left: 23%;
+    padding-right: 23%;
+    margin-bottom: 25%;
+}
+
+.contf{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 2%;
+    gap: 5%;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.3rem;
+    border-radius: 0.7rem;
+    resize: none;
+    background: transparent;
+    border: 2px solid darkturquoise
+}
+
+.sendbb{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    background: none;
+    color: darkcyan;
+    border: 2.5px solid turquoise;
+}
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: inherit;
+}
+
+.success{
+    padding-top: 2em;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .success{
+        font-size: 1rem;
+    }
+    .conty{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    input, textarea{
+        width: 100%;
+        padding: 0.8rem;
+    }
+}

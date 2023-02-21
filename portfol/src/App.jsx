@@ -8,6 +8,7 @@ import Dropd from './components/dropd/Dropd.jsx'
 import Header from './components/header/Header.jsx'
 import About from './components/about/About.jsx'
 import Projects from './components/proj/Proj.jsx'
+import Contactme from './components/contact/Contact.jsx'
 function App() {
   const FadeUp = batch(Fade(), Move(), Sticky());
   const FadeUpn = batch(Fade(), Move());
@@ -91,6 +92,7 @@ const container = {
           </Animator>
         </ScrollPage>
         </ScrollContainer>
+        <Contactme />
     </div>
   )
 }
