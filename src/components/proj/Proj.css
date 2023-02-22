@@ -63,7 +63,7 @@
     bottom:1px;
     right: 5px;
     height: 5vh;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: max-content;
   }
   .btmimgry{
@@ -71,7 +71,7 @@
     bottom: 1px;
     left: 7rem;
     height: 5vh;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: max-content;
   }
   .btmimgrg{
@@ -79,7 +79,7 @@
     bottom: 1px;
     left: 5px;
     height: 5vh;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     width: max-content;
   }
   .gri h1{
@@ -87,7 +87,7 @@
     padding: 1%;
   }
   .gri p{
-    font-size: 105%;
+    font-size: 100%;
     padding:1%
   }
   
