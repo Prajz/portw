@@ -47,7 +47,7 @@ const Proj =() => {
                     <motion.h1
                         variants={heAnim}>CampusMap</motion.h1>
                     <motion.p
-variants={heAnim}>Ongoing group project in which are creating an Android application which will soon allow lectures and students to comfortably navigate around our University campus.
+variants={heAnim}>Ongoing group project in which are creating an Android application which will soon allow lecturers and students to comfortably navigate around our University campus.
                     </motion.p>
 
                 </div>
