@@ -24,7 +24,7 @@ const About = () => {
 const container = {
     visible: {
       transition: {
-        staggerChildren: 0.065
+        staggerChildren: 0.06
       }
     }
   };
