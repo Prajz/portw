@@ -10,7 +10,7 @@ const About = () => {
   const placeholderTextm = [
     {
       type: "heading5",
-      text: "I am currently a second year student studying towards a BSc in Computer Science. This site includes some notable projects that I have created and taken part in with explanations provided. It will feature a blog with some intersting concepts I come across in my upcoming projects."
+      text: "I am currently a second year student studying towards a BSc in Computer Science. Below I have outlined some notable projects that I have created and taken part in with explanations provided. I will soon add a blog with some interesting concepts I come across in my upcoming projects."
     }
   ];
 

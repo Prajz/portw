@@ -19,7 +19,7 @@ input, textarea{
     border-radius: 0.7rem;
     resize: none;
     background: transparent;
-    border: 2px solid darkturquoise
+    border: 2px solid midnightblue
 }
 
 .sendbb{
@@ -27,8 +27,8 @@ input, textarea{
     width: 7rem;
     border-radius: 0.5rem;
     background: none;
-    color: darkcyan;
-    border: 2.5px solid turquoise;
+    color: navy;
+    border: 2.5px solid midnightblue
 }
 .hidden{
     display: none;

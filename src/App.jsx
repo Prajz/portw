@@ -5,10 +5,11 @@ import AnimatedTexts from "./AnimatedTextsinglelong";
 import {motion, useScroll, useSpring} from 'framer-motion'
 import React from 'react';
 import Dropd from './components/dropd/Dropd.jsx'
-import Header from './components/header/Header.jsx'
-import About from './components/about/About.jsx'
-import Projects from './components/proj/Proj.jsx'
-import Contactme from './components/contact/Contact.jsx'
+const Header = React.lazy(() => import('./components/header/Header.jsx'))
+const About = React.lazy(() => import('./components/about/About.jsx'))
+const Projects = React.lazy(() => import('./components/proj/Proj.jsx'))
+const Contactme =  React.lazy(() => import('./components/contact/Contact.jsx'))
+
 function App() {
   const FadeUp = batch(Fade(), Move(), Sticky());
   const FadeUpn = batch(Fade(), Move());
@@ -52,7 +53,7 @@ const container = {
     <div className='aap'>
       <Dropd />
       <motion.div className="progress-bar" style={{ scaleX }} />
-      <ScrollContainer snap='proxmity'>
+      <ScrollContainer snap='mandatory'>
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -250))}>
             <Header />
