@@ -4,7 +4,7 @@ import AnimatedText from "./AnimatedTextsingle";
 import AnimatedTexts from "./AnimatedTextsinglelong";
 import {motion, useScroll, useSpring} from 'framer-motion'
 import React from 'react';
-import Dropd from './components/dropd/Dropd.jsx'
+const Dropd = React.lazy(() => import( './components/dropd/Dropd.jsx'))
 const Header = React.lazy(() => import('./components/header/Header.jsx'))
 const About = React.lazy(() => import('./components/about/About.jsx'))
 const Projects = React.lazy(() => import('./components/proj/Proj.jsx'))
