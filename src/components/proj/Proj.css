@@ -11,14 +11,14 @@
   
   .btnprow{
     color: darkslategray;
-    width: 13.4rem;
+    width: 13.35rem;
     height: 1.85rem;
     border: 1px solid darkorange;
     border-radius: 5px;
   }
 
   .btnprow:hover{
-    background: orangered;
+    background: darkgrey;
     color: var(--colorw);
     border-color: transparent;
   }

@@ -2,9 +2,13 @@ import React from 'react'
 import './Proj.css'
 import { motion } from 'framer-motion'
 import SmartG from '../../assets/SG.png'
+//import SmartG1 from '../../assets/SG1.jpeg'
 import fidi from '../../assets/whitecampus.png'
+//import fidi1 from '../../assets/whitecampus1.jpeg'
 import iSpendifyNTB from '../../assets/iSpendi13.png'
+//import iSpendifyNTB1 from '../../assets/iSpendi131.jpeg'
 import worki from '../../assets/workifyprod.png'
+//import worki1 from '../../assets/workifyprod1.jpeg'
 
 const Proj =() => {
 
