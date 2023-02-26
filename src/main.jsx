@@ -1,10 +1,12 @@
-import React from 'react'
+import React,{ Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+const App = React.lazy(() => import('./App'))
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={<h2> Please refresh if this takes too long.</h2>}>
+      <App />
+    </Suspense>
   </React.StrictMode>,
 )

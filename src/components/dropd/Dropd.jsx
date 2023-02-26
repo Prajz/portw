@@ -1,7 +1,6 @@
 import './Dropd.css'
 import React, {useRef, useState} from "react";
-import linkt from '../../assets/linkedin.png'
-import githu from '../../assets/github.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Dropd = () => {
 
@@ -37,11 +36,11 @@ const Dropd = () => {
             <div className={menu_class}> 
             <div className={box_class}>
                         <a className="btn" href='https://linkedin.com/in/devpraj' target='_blank' rel='noreferrer'>
-                            <img src={linkt} alt='linkedin' className='spaniL'></img></a></div>
+                            <LazyLoadImage src='./src/assets/linkedin.png' alt='linkedin' className='spaniL'/></a></div>
                 <div
                     className={box_class}>
                         <a className="btn" href='https://github.com/Prajz' target='_blank' rel='noreferrer'>
-                            <img src={githu} alt='github' className='spaniG'></img></a></div>
+                            <LazyLoadImage src='./src/assets/github.png' alt='github' className='spaniG'/></a></div>
             </div>
         </nav>
     )

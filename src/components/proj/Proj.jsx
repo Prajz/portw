@@ -1,13 +1,10 @@
 import React from 'react'
 import './Proj.css'
 import { motion } from 'framer-motion'
-import SmartG from '../../assets/SG.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 //import SmartG1 from '../../assets/SG1.jpeg'
-import fidi from '../../assets/whitecampus.png'
 //import fidi1 from '../../assets/whitecampus1.jpeg'
-import iSpendifyNTB from '../../assets/iSpendi13.png'
 //import iSpendifyNTB1 from '../../assets/iSpendi131.jpeg'
-import worki from '../../assets/workifyprod.png'
 //import worki1 from '../../assets/workifyprod1.jpeg'
 
 const Proj =() => {
@@ -47,7 +44,7 @@ const Proj =() => {
         transition={{staggerChildren:0.5}}>
             <div className='tl' >
                 <div className='b2'>
-                    <img className='cmc' src={fidi} alt="map" />
+                    <LazyLoadImage className='cmc' src='./src/assets/whitecampus.png' alt="map" />
                     <motion.h1
                         variants={heAnim}>CampusMap</motion.h1>
                     <motion.p
@@ -58,7 +55,7 @@ variants={heAnim}>Ongoing group project in which are creating an Android applica
             </div>
             <div className='tr' >
                 <div className='b1'>
-                    <img className= "sgc" src={SmartG} alt="Smart Garden" />
+                    <LazyLoadImage className= "sgc" src='./src/assets/SG.png' alt="Smart Garden" />
                     <motion.h1 
                         variants={heAnim}>SmartGarden</motion.h1>
                     <motion.p
@@ -70,7 +67,7 @@ variants={heAnim}>Successfully created a self sustaining plant system which is a
             </div>
             <div className='bl' >
                 <div className='b4'>
-                     <img src={iSpendifyNTB} alt="iSpendifyapp" className='isc' />
+                     <LazyLoadImage src='./src/assets/iSpendi13.png' alt="iSpendifyapp" className='isc' />
                     <motion.h1 
                     variants={heAnim}>iSpendify</motion.h1>
                      <motion.p
@@ -82,7 +79,7 @@ variants={heAnim}>iOS application in the MVVM format created with SwiftUI which 
             </div>
             <div className='br' >
                 <div className='b3'>
-                    <img src={worki} alt="workify" className='wkc' />
+                    <LazyLoadImage src='./src/assets/workifyprod.png' alt="workify" className='wkc' />
                      <motion.h1
                      variants={heAnim}> Workify </motion.h1>
                       <motion.p
