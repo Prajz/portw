@@ -44,22 +44,22 @@ const Proj =() => {
         transition={{staggerChildren:0.5}}>
             <div className='tl' >
                 <div className='b2'>
-                    <LazyLoadImage className='cmc' src='./src/assets/whitecampus.png' alt="map" />
+                    <LazyLoadImage className='cmc' src='./assets/whitecampus.png' alt="map" />
                     <motion.h1
                         variants={heAnim}>CampusMap</motion.h1>
                     <motion.p
-variants={heAnim}>Ongoing group project in which are creating an Android application which will soon allow lecturers and students to comfortably navigate around our University campus.
+variants={heAnim}>Ongoing group project in which are creating an Android application in Java using Google Maps API and OpenStreetMap allowing users to navigate through campus.
                     </motion.p>
 
                 </div>
             </div>
             <div className='tr' >
                 <div className='b1'>
-                    <LazyLoadImage className= "sgc" src='./src/assets/SG.png' alt="Smart Garden" />
+                    <LazyLoadImage className= "sgc" src='./assets/SG.png' alt="Smart Garden" />
                     <motion.h1 
                         variants={heAnim}>SmartGarden</motion.h1>
                     <motion.p
-variants={heAnim}>Successfully created a self sustaining plant system which is able to change the surroundings in order to absorb light and water when required.
+variants={heAnim}>Using an Arduino UNO R3, created a self sustaining plant system which is able to change the surroundings in order to absorb light and water when required.
                     </motion.p>
                     <motion.div className='btmimgry'> <a target='_blank' rel='noreferrer' href='https://www.youtube.com/watch?v=JCjzglzV1n8z' className='btnproy'> Live demo </a></motion.div>
                     <motion.div className='btmimgrg'> <a target='_blank' rel='noreferrer' href="https://github.com/Prajz/SmartGarden" className='btnprog'> Github </a> </motion.div>
@@ -67,7 +67,7 @@ variants={heAnim}>Successfully created a self sustaining plant system which is a
             </div>
             <div className='bl' >
                 <div className='b4'>
-                     <LazyLoadImage src='./src/assets/iSpendi13.png' alt="iSpendifyapp" className='isc' />
+                     <LazyLoadImage src='./assets/iSpendi13.png' alt="iSpendifyapp" className='isc' />
                     <motion.h1 
                     variants={heAnim}>iSpendify</motion.h1>
                      <motion.p
@@ -79,7 +79,7 @@ variants={heAnim}>iOS application in the MVVM format created with SwiftUI which 
             </div>
             <div className='br' >
                 <div className='b3'>
-                    <LazyLoadImage src='./src/assets/workifyprod.png' alt="workify" className='wkc' />
+                    <LazyLoadImage src='./assets/workifyprod.png' alt="workify" className='wkc' />
                      <motion.h1
                      variants={heAnim}> Workify </motion.h1>
                       <motion.p
