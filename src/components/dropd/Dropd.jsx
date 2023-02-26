@@ -36,11 +36,11 @@ const Dropd = () => {
             <div className={menu_class}> 
             <div className={box_class}>
                         <a className="btn" href='https://linkedin.com/in/devpraj' target='_blank' rel='noreferrer'>
-                            <LazyLoadImage src='./src/assets/linkedin.png' alt='linkedin' className='spaniL'/></a></div>
+                            <LazyLoadImage src='./assets/linkedin.png' alt='linkedin' className='spaniL'/></a></div>
                 <div
                     className={box_class}>
                         <a className="btn" href='https://github.com/Prajz' target='_blank' rel='noreferrer'>
-                            <LazyLoadImage src='./src/assets/github.png' alt='github' className='spaniG'/></a></div>
+                            <LazyLoadImage src='./assets/github.png' alt='github' className='spaniG'/></a></div>
             </div>
         </nav>
     )

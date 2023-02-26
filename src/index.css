@@ -50,6 +50,16 @@ html {
   opacity: 0;
 }
 
+.loadingce{
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: auto;
+  width: 20vh;
+  height: 20vh;
+}
 
 body{
   font-family: 'Kumbh Sans', sans-serif;
