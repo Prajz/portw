@@ -63,7 +63,7 @@ html {
 
 body{
   font-family: 'Kumbh Sans', sans-serif;
-  background-image: url(../src/assets/white_wall_hash.png);
+  background-image: url(../assets/white_wall_hash.png);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

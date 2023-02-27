@@ -3,7 +3,7 @@ import './About.css'
 import {motion} from 'framer-motion'
 import AnimatedText from '../../AnimatedText'
 import AnimatedTexts from '../../AnimatedTextsingle'
-import DevPrajaCV from '../../assets/DevPrajaCV.pdf'
+import DevPrajaCV from '../../../assets/DevPrajaCV.pdf'
 const About = () => {
 
 
